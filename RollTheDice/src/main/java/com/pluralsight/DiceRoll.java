@@ -25,14 +25,14 @@ public class DiceRoll {
 
             int sum = roll1 + roll2;
 
-            
-            if (roll1 + roll2 == 2) {
+
+            if (sum == 2) {
                 twoCounter++;
-            } else if (roll1 + roll2 == 4) {
+            } else if (sum == 4) {
                 fourCounter++;
-            } else if (roll1 + roll2 == 6) {
+            } else if (sum == 6) {
                 sixCounter++;
-            } else if (roll1 + roll2 == 7) {
+            } else if (sum == 7) {
                 sevenCounter++;
             }
 
